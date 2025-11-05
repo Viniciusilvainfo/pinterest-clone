@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinterest Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50">
+
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between px-6 py-4 bg-white shadow">
+      <div class="text-2xl font-bold text-red-500">MyPins</div>
+      <div class="space-x-4">
+        <a href="#" class="text-gray-700 hover:text-red-500">Login</a>
+        <a href="#" class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition">Sign Up</a>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="p-6">
+      <h1 class="text-3xl font-bold text-gray-800 mb-6">Explore Pins</h1>
+      
+      <!-- Masonry-like grid -->
+      <div class="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
+        <!-- Example Pins -->
+        <img src="https://source.unsplash.com/random/300x400?sig=1" alt="pin" class="rounded-lg shadow hover:opacity-90 transition" />
+        <img src="https://source.unsplash.com/random/300x500?sig=2" alt="pin" class="rounded-lg shadow hover:opacity-90 transition" />
+        <img src="https://source.unsplash.com/random/300x300?sig=3" alt="pin" class="rounded-lg shadow hover:opacity-90 transition" />
+        <img src="https://source.unsplash.com/random/300x450?sig=4" alt="pin" class="rounded-lg shadow hover:opacity-90 transition" />
+        <img src="https://source.unsplash.com/random/300x350?sig=5" alt="pin" class="rounded-lg shadow hover:opacity-90 transition" />
+        <img src="https://source.unsplash.com/random/300x600?sig=6" alt="pin" class="rounded-lg shadow hover:opacity-90 transition" />
+        <img src="https://source.unsplash.com/random/300x380?sig=7" alt="pin" class="rounded-lg shadow hover:opacity-90 transition" />
+        <img src="https://source.unsplash.com/random/300x420?sig=8" alt="pin" class="rounded-lg shadow hover:opacity-90 transition" />
+      </div>
+    </main>
+
+  </body>
+</html>
